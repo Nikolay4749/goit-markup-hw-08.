@@ -1,0 +1,186 @@
+// .address {
+//   display: flex;
+//   padding: 0;
+// }
+
+// .footer-box {
+//   display: flex;
+//   padding-bottom: 60px;
+//   padding-top: 60px;
+
+//   background: #2f303a;
+// }
+
+// .address-box {
+//   display: flex;
+//   align-items: baseline;
+// }
+
+// .logo-footer {
+//   color: var(--primary-white-color);
+
+//   font-family: 'Raleway', sans-serif;
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 1.2;
+//   letter-spacing: 0.03em;
+// }
+
+// .footer__list {
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 20px;
+// }
+
+// .footer__item:not(:last-child) {
+//   padding-bottom: 9px;
+// }
+
+// .footer__location {
+//   color: var(--primary-white-color);
+
+//   font-family: Roboto, sans-serif;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   letter-spacing: 0.03em;
+
+//   transition-property: color, border-color, box-shadow, background-color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//   & :hover,
+//   & :focus {
+//     color: var(--accent-color);
+//   }
+// }
+
+// .footer__link {
+//   color: rgba(255, 255, 255, 0.6);
+
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   letter-spacing: 0.03em;
+
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-color);
+//   }
+// }
+
+// .footer-link-box {
+//   margin-left: 70px;
+//   width: 206px;
+//   height: 80px;
+// }
+
+// .footer-link-box__title {
+//   color: var(--primary-white-color);
+
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 16px;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+// }
+
+// .footer-social {
+//   display: flex;
+//   justify-content: space-between;
+//   margin-top: 20px;
+// }
+
+// .footer-social__item {
+//   background-color: rgba(255, 255, 255, 0.1);
+//   border-radius: 50%;
+// }
+
+// .footer-social__link {
+//   @include flexCenter();
+//   width: 44px;
+//   height: 44px;
+
+//   border-radius: 50%;
+
+//   transition-property: fill, border-color, box-shadow, background-color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   &:hover,
+//   &:focus {
+//     background-color: var(--accent-color);
+//   }
+// }
+
+// .footer-social__icon {
+//   fill: var(--primary-white-color);
+// }
+
+// .subscribe-box {
+//   margin-left: 93px;
+// }
+
+// .subscribe-form__title {
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+
+//   color: var(--primary-white-color);
+// }
+
+// .subscribe-form__email {
+//   display: inline-block;
+//   margin-top: 20px;
+//   padding: 15px 16px;
+//   width: 358px;
+//   height: 50px;
+
+//   border: 1px solid rgba(255, 255, 255, 0.3);
+//   border-color: var(--text-primary);
+//   color: var(--primary-white-color);
+//   box-sizing: border-box;
+//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+//   border-radius: 4px;
+
+//   background-color: #2f303a;
+//   @include anime(border-color);
+
+//   &:focus {
+//     outline: none;
+//     border: 1px solid var(--accent-color);
+//   }
+// }
+
+// .subscribe {
+//   display: inline-block;
+//   margin-left: 12px;
+// }
+
+// .subscribe__button {
+//   @include flexCenter();
+
+//   min-width: 200px;
+//   height: 50px;
+//   border: none;
+//   border-radius: 4px;
+
+//   letter-spacing: 0.06em;
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.87;
+
+//   color: var(--primary-white-color);
+//   background-color: var(--accent-color);
+// }
+
+// .subscribe__icon {
+//   margin-left: 10px;
+// }

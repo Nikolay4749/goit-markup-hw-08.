@@ -1,0 +1,30 @@
+// variables
+@import './utils/variables';
+@import './utils/visualy-hidden';
+@import './utils/mixins';
+// base styles
+@import './base/reset';
+
+// components
+@import './components/section';
+@import './components/container';
+@import './components/modal';
+@import './components/button';
+@import './components/nav-heder';
+@import './components/contakts-heder';
+@import './components/logo';
+@import './components/hero-title';
+@import './components/logo-footer';
+@import './components/contakts-footer';
+@import './components/social-footer';
+@import './components/button-list-portfolio';
+@import './components/product-examples';
+
+// layuotvariables
+@import './layuot/heder';
+@import './layuot/hero';
+@import './layuot/feauture';
+@import './layuot/work-examples';
+@import './layuot/our-team';
+@import './layuot/customers';
+@import './layuot/footer';

@@ -1,0 +1,141 @@
+header {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  color: var(--text-title);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  &__accent {
+    color: var(--accent-color);
+  }
+}
+
+/* main-nav */
+
+.main-nav {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
+  margin-left: 93px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--text-title);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--activ::after {
+    position: absolute;
+    bottom: -1px;
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 4px;
+
+    background: #2196f3;
+    border-radius: 2px;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.nav__link .nav__link--activ {
+  color: var(--accent-color);
+}
+
+.contakts {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @include flexCenter();
+
+  margin-left: auto;
+}
+
+.contakts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contakts__link {
+  display: flex;
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: auto;
+
+  color: var(--text-primary);
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contakts__ico-phone,
+.contakts__ico-mail {
+  color: var(--text-primary);
+}
+
+.contakts__icon {
+  margin-right: 10px;
+  fill: var(--text-primary);
+
+  .contakts__link:hover &,
+  .contakts__link:focus & {
+    fill: var(--accent-color);
+  }
+}

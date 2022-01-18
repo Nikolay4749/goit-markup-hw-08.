@@ -1,0 +1,106 @@
+// .section-hero {
+//   padding-top: 0;
+//   min-width: 1600px;
+//   height: 600px;
+// }
+
+// .main-hero {
+//   padding: 200px 0;
+//   text-align: center;
+
+//   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url('../images/fone.jpg');
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   background-color: #c4c4c4;
+// }
+
+// .hero__title {
+//   margin-top: 0;
+//   margin-bottom: 30px;
+
+//   color: var(--primary-white-color);
+
+//   font-weight: 900;
+//   font-size: 44px;
+//   line-height: 1.36;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
+// }
+
+// .hero__button {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   height: 50px;
+//   min-width: 200px;
+//   border: transparent;
+//   border-radius: 4px;
+//   padding: 10px 32px;
+
+//   background-color: var(--accent-color);
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//   color: var(--primary-white-color);
+
+//   font-family: 'Roboto', sans-serif;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.8;
+//   letter-spacing: 0.06em;
+//   text-align: center;
+// }
+
+// .section-hero {
+//   width: 480px;
+//   height: 400px;
+// }
+
+.section-hero {
+  padding-top: 0;
+}
+
+.main-hero {
+  padding-top: 0;
+  width: 480px;
+  height: 400px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('/images/HeaderMob.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #c4c4c4;
+
+  text-align: center;
+}
+
+.hero__title {
+  padding: 118px 45px 30px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.hero__button {
+  height: 50px;
+  min-width: 200px;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--primary-white-color);
+
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+}

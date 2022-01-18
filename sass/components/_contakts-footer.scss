@@ -1,0 +1,44 @@
+// .footer__list {
+//   display: flex;
+//   flex-direction: column;
+//   padding-top: 20px;
+// }
+
+// .footer__item:not(:last-child) {
+//   padding-bottom: 9px;
+// }
+
+// .footer__location {
+//   color: var(--primary-white-color);
+
+//   font-family: Roboto, sans-serif;
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   letter-spacing: 0.03em;
+
+//   transition-property: color, border-color, box-shadow, background-color;
+//   transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+//   & :hover,
+//   & :focus {
+//     color: var(--accent-color);
+//   }
+// }
+
+// .footer__link {
+//   color: rgba(255, 255, 255, 0.6);
+
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   letter-spacing: 0.03em;
+
+//   &:hover,
+//   &:focus {
+//     color: var(--accent-color);
+//   }
+// }

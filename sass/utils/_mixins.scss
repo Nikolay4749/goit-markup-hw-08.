@@ -1,0 +1,9 @@
+@mixin anime($type: fill) {
+  transition: $type 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@mixin flexCenter($type: flex) {
+  display: $type;
+  justify-content: center;
+  align-items: center;
+}
