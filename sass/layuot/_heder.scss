@@ -1,5 +1,11 @@
 header {
+  position: relative;
   border-bottom: 1px solid #ececec;
+}
+
+.burger-box {
+  position: absolute;
+  margin-right: 0;
 }
 
 .logo {
