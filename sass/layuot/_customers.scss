@@ -59,16 +59,16 @@
     flex-basis: calc((100% - 2 * 30px) / 2);
   }
   @media screen and (min-width: 768px) {
-    min-width: 226px;
-    min-height: 92px;
+    width: 226px;
+    height: 92px;
     margin: 15px;
     flex-basis: calc((100% - 3 * 30px) / 3);
   }
   @media screen and (min-width: 1200px) {
     @include flexCenter();
-    width: 170px;
-    height: 92px;
-
+    min-width: 170px;
+    min-height: 92px;
+    margin: 0;
     &:not(:last-child) {
       margin-right: 30px;
     }

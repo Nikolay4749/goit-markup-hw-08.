@@ -21,12 +21,19 @@
 }
 
 .modal {
+  @media screen and (max-width: 767px) {
+    min-width: 450px;
+    height: 609px;
+  }
+  @media screen and (min-width: 1199px) {
+    min-width: 528px;
+    min-height: 581px;
+  }
   position: absolute;
+  z-index: 11;
   top: 50%;
   left: 50%;
 
-  min-width: 528px;
-  min-height: 581px;
   padding: 40px;
   border-radius: 4px;
 
@@ -89,7 +96,7 @@
   color: var(--text-primary);
   font-size: 12px;
   line-height: 1.16;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
 }
 
 .form__icon-box {
@@ -142,11 +149,20 @@
 }
 
 .policy-box {
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+    line-height: 1.16px;
+  }
+  @media screen and (min-width: 1199px) {
+    font-size: 14px;
+    line-height: 1.7;
+  }
   @include flexCenter();
   margin-top: 20px;
   margin-bottom: 30px;
-  font-size: 14px;
+
   color: var(--text-primary);
+  letter-spacing: 0.03em;
 }
 
 .policy__checkbox {
@@ -163,8 +179,8 @@
 
 .policy__icon {
   cursor: pointer;
-  width: 16px;
-  height: 15px;
+  min-width: 16px;
+  min-height: 15px;
   border: 2px solid var(--text-title);
   border-radius: 3px;
   margin-right: 8px;
