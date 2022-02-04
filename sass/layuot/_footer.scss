@@ -193,15 +193,16 @@
     padding-left: 60px;
     padding-right: 74px;
   }
+  @media screen and (min-width: 1200px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .footer-contakts-box {
   @media screen and (max-width: 1199px) {
     text-align: center;
   }
-  // @media screen and (min-width: 768px) {
-  //   padding-left: 60px;
-  // }
 }
 
 .logo-footer {
@@ -274,8 +275,9 @@
     margin-left: 165px;
     margin-top: 0;
   }
-  @media screen and (min-width: 320px) {
-    text-align: start;
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-top: 0;
   }
 }
 
@@ -325,6 +327,10 @@
 }
 
 .subscribe-box {
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-right: 0;
+  }
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
@@ -352,8 +358,10 @@
   @media screen and (min-width: 768px) {
     width: 450px;
   }
-  justify-content: center;
-  display: inline-block;
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+  }
+
   margin-top: 20px;
   padding: 15px 16px;
   height: 50px;
@@ -374,11 +382,12 @@
   }
 }
 
-// .subscribe {
-//   @media screen and (max-width: 767px) {}
-//   display: inline-block;
-//   margin-left: 12px;
-// }
+.subscribe {
+  @media screen and (min-width: 1200px) {
+    display: inline-block;
+    margin-left: 12px;
+  }
+}
 
 .subscribe__button {
   @media screen and (min-width: 320px) {

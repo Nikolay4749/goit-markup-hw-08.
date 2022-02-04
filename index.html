@@ -115,11 +115,13 @@
     <main class="hero">
       <section class="section section-hero">
         <div class="container main-hero">
-          <h1 class="hero__title">
-            Эффективные решения <br />
-            для вашего бизнеса
-          </h1>
-          <button data-modal-open type="button" class="hero__button">Заказать услугу</button>
+          <div class="hero__title-box">
+            <h1 class="hero__title">
+              Эффективные решения <br />
+              для вашего бизнеса
+            </h1>
+            <button data-modal-open type="button" class="hero__button">Заказать услугу</button>
+          </div>
         </div>
       </section>
 
@@ -186,35 +188,54 @@
           <h2 class="work-examples__title">Чем мы занимаемся</h2>
           <ul class="work-examples__list">
             <li class="work-examples__item">
-              <img
-                src="./images/box1.jpg"
-                alt="ноутбук на рабочем столе"
-                class="work-examples__image"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="./images/desk/box1-1x.jpg 1x, ./images/desk/box1-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desk/box1.jpg"
+                  alt="ноутбук на рабочем столе"
+                  class="work-examples__image"
+                />
+              </picture>
+
               <div class="descript">
                 <p class="descript__text">Десктопные приложения</p>
               </div>
             </li>
 
             <li class="work-examples__item">
-              <img
-                src="./images/box2.jpg"
-                alt="человек держит смартфон и работает на ноутбуке"
-                class="work-examples__image"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="./images/desk/box2-1x.jpg 1x, ./images/desk/box2-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./images/desk/box2.jpg"
+                  alt="человек держит смартфон и работает на ноутбуке"
+                  class="work-examples__image"
+                />
+              </picture>
+
               <div class="descript">
                 <p class="descript__text">Мобильные приложения</p>
               </div>
             </li>
             <li class="work-examples__item">
-              <img
-                src="./images/box3.jpg"
-                alt="планшет в руках человека"
-                class="work-examples__image"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="./images/desk/box3-1x.jpg 1x, ./images/desk/box3-2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desk/box3.jpg"
+                  alt="планшет в руках человека"
+                  class="work-examples__image"
+                />
+              </picture>
+
               <div class="descript">
                 <p class="descript__text">Дизайнерские решения</p>
               </div>
@@ -232,7 +253,21 @@
             <li class="member__item">
               <article class="card">
                 <div class="card__thumb">
-                  <img src="./images/mob/igorMob.jpg" alt="член команды" class="card__image" />
+                  <picture>
+                    <source
+                      srcset="./images/desk/igor1x.jpg 1x, ./images/desk/igor2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tab/igorTab.jpg 1x, ./images/tab/igorTab2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mob/igorMob.jpg 1x, ./images/mob/igorMob2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desk/igor.jpg" alt="член команды" class="card__image" />
+                  </picture>
                 </div>
 
                 <div class="card__content">
@@ -275,8 +310,21 @@
             <li class="member__item">
               <article class="card">
                 <div class="card__thumb">
-                  <img src="../../проэкты/goit-markup-hw-08/images/mob/olgaMob.jpg alt="член
-                  команды" class="card__image" />
+                  <picture>
+                    <source
+                      srcset="./images/desk/olga1x.jpg 1x, ./images/desk/olga2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tab/olgaTab.jpg 1x, ./images/tab/olgaTab2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mob/olgaMob.jpg 1x, ./images/mob/olgaMob2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desk/olga.jpg" alt="член команды" class="card__image" />
+                  </picture>
                 </div>
 
                 <div class="card__content">
@@ -319,11 +367,21 @@
             <li class="member__item">
               <article class="card">
                 <div class="card__thumb">
-                  <img
-                    src="../../проэкты/goit-markup-hw-08/images/mob/nikolayMob.jpg"
-                    alt="член команды"
-                    class="card__image"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/desk/nikolay1x.jpg 1x, ./images/desk/nikolay2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tab/nikolayTab.jpg 1x, ./images/tab/nikolayTab2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mob/nikolayMob.jpg 1x, ./images/mob/nikolayMob2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desk/nikolay.jpg" alt="член команды" class="card__image" />
+                  </picture>
                 </div>
 
                 <div class="card__content">
@@ -366,11 +424,21 @@
             <li class="member__item">
               <article class="card">
                 <div class="card__thumb">
-                  <img
-                    src="../../проэкты/goit-markup-hw-08/images/mob/mihailMob.jpg"
-                    alt="член команды"
-                    class="card__image"
-                  />
+                  <picture>
+                    <source
+                      srcset="./images/desk/mikhail1x.jpg 1x, ./images/desk/mikhail2x.jpg 2x"
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="./images/tab/mikhailTab.jpg 1x, ./images/tab/mikhailTab2x.jpg 2x"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="./images/mob/mikhailMob.jpg 1x, ./images/mob/mikhailMob2x.jpg 2x"
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desk/mikhail.jpg" alt="член команды" class="card__image" />
+                  </picture>
                 </div>
 
                 <div class="card__content">
