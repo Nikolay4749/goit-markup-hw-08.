@@ -98,10 +98,14 @@
 }
 
 .feature__item {
+  @media screen and (min-width: 320px) {
+    margin-bottom: 30px;
+  }
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 0;
   }
   @media screen and (min-width: 1200px) {
     flex-basis: calc(100% / 4 - 30px);
@@ -111,6 +115,9 @@
 }
 
 .feature__icon-box {
+  @media screen and (min-width: 320px) {
+    height: 120px;
+  }
   @include flexCenter();
   background-color: var(--primary-bcg-color);
 }

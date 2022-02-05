@@ -115,6 +115,9 @@
 }
 
 .hero__title {
+  @media screen and (max-width: 479px) {
+    padding: 118px 0 30px;
+  }
   @media screen and (min-width: 1200px) {
     padding: 0;
     margin-bottom: 30px;
