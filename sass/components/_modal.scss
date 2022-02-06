@@ -157,7 +157,7 @@
     font-size: 12px;
     line-height: 1.16px;
   }
-  @media screen and (max-width: 479px) and (min-width: 1200px) {
+  @media screen and (max-width: 479px), (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.7;
   }

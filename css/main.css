@@ -305,7 +305,7 @@ button {
     line-height: 1.16px;
   }
 }
-@media screen and (max-width: 479px) and (min-width: 1200px) {
+@media screen and (max-width: 479px), (min-width: 1200px) {
   .policy-box {
     font-size: 14px;
     line-height: 1.7;
@@ -393,6 +393,57 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20px;
+}
+
+.footer__item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.footer__location {
+  color: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  -webkit-transition-property: color, border-color, background-color, -webkit-box-shadow;
+  transition-property: color, border-color, background-color, -webkit-box-shadow;
+  -o-transition-property: color, border-color, box-shadow, background-color;
+  transition-property: color, border-color, box-shadow, background-color;
+  transition-property: color, border-color, box-shadow, background-color, -webkit-box-shadow;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__location :hover, .footer__location :focus {
+  color: var(--accent-color);
+}
+
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.footer__link:hover, .footer__link:focus {
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 320px) {
@@ -540,7 +591,12 @@ button {
   }
 }
 
+.product-card__thumb {
+  height: 100%;
+}
+
 .product-card__link {
+  height: 100%;
   display: block;
   color: var(--text-title);
   font-family: inherit;

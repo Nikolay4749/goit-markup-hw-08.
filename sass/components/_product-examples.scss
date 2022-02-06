@@ -48,7 +48,12 @@
   box-sizing: border-box;
 }
 
+.product-card__thumb {
+  height: 100%;
+}
+
 .product-card__link {
+  height: 100%;
   display: block;
   color: var(--text-title);
   font-family: inherit;
