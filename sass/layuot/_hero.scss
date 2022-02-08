@@ -89,7 +89,7 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/mob/HeroMob2x.jpg');
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 481px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/tab/HeroTab.jpg');
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -97,7 +97,7 @@
         url('../images/tab/HeroTab2x.jpg');
     }
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 769px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/desk/HeroDesk.jpg');
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
