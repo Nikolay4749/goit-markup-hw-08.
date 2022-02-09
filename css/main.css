@@ -500,7 +500,7 @@ button {
 @media screen and (max-width: 378px) {
   .menu-contakts__link:hover, .menu-contakts__link:focus {
     color: var(--accent-color);
-    font-size: 28px;
+    font-size: 27px;
     line-height: 1.17;
   }
 }
